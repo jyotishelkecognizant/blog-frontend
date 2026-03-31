@@ -1,0 +1,53 @@
+
+body{
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.navbar{
+  display:flex;
+  justify-content:space-between;
+  align-items:center;
+  background:#3681f1;
+  padding:15px;
+  color:white;
+}
+
+.navbar a{
+  margin-left:20px;
+  color:white;
+  text-decoration:none;
+}
+
+.container{
+  padding:20px;
+}
+
+.blog-card{
+  background:#f4f4f4;
+  padding:20px;
+  margin-bottom:20px;
+  border-radius:10px;
+  box-shadow:0 0 10px rgba(0,0,0,0.1);
+}
+
+.category{
+  color:#3498db;
+}
+
+.author{
+  font-size:14px;
+  color:#555;
+}
+
+button{
+  padding:8px 15px;
+  border:none;
+  background:#e74c3c;
+  color:white;
+  border-radius:5px;
+  cursor:pointer;
+}
+
+button:hover{
+  background:#c0392b;
+}

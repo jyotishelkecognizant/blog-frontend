@@ -1,0 +1,23 @@
+<nav class="navbar">
+  <h2><a routerLink="/home">My Blogs</a></h2>
+  <div>
+    <a routerLink="/add">Create Blogs</a>
+  </div>
+</nav>
+
+<div class="container">
+
+  <h1>Latest Blogs</h1>
+      <div class="blog-card" *ngFor="let b of blogs">
+          <h2>{{b.title}}</h2>
+          <p>{{b.category}}</p>
+          <p>{{b.article}}</p>
+          <p>{{b.author}}</p>
+    
+
+   
+    <button (click)="delete(b.id)">Delete</button>
+ </div>
+ 
+ </div>
+ 

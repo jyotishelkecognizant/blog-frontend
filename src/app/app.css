@@ -1,0 +1,19 @@
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  text-align: center;
+  background:black;
+   font-size: 32px;
+   font-weight: bold;
+  
+  color: white;
+}
+
+.navbar a {
+  margin-left: 15px;
+  text-decoration-color: blue;
+  color: white;
+  text-decoration: none;
+}
+

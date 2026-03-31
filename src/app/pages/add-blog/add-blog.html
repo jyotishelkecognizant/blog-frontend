@@ -1,0 +1,8 @@
+<h2>Add Blog</h2>
+
+  <input [(ngModel)]='blog.title' placeholder='Title'><br>
+  <input [(ngModel)]='blog.category'><br>
+  <textarea [(ngModel)]='blog.article'></textarea><br>
+  <input [(ngModel)]='blog.author'><br>
+
+  <button (click)='save()'>Save</button>
